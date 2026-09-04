@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="{{ page.lang | default: 'en' }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="{{ page.description | default: site.description | escape }}">
+    <meta name="theme-color" content="#102a43">
+    <title>{{ page.title }} · {{ site.title }}</title>
+    <link rel="icon" href="{{ '/assets/images/favicon.svg' | relative_url }}" type="image/svg+xml">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    <script src="{{ '/assets/js/main.js' | relative_url }}" defer></script>
+  </head>
+  <body class="page-{{ page.page_key }}">
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    {% include header.html %}
+
+    <main id="main-content">
+      <section class="page-heading" aria-labelledby="page-title">
+        <p>{{ page.eyebrow }}</p>
+        <h1 id="page-title">{{ page.display_title | default: page.title }}</h1>
+      </section>
+      {{ content }}
+    </main>
+
+    {% include footer.html %}
+  </body>
+</html>

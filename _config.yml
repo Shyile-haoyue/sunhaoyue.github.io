@@ -1,0 +1,10 @@
+title: "Haoyue Sun"
+description: "Academic homepage of Haoyue Sun"
+url: ""
+baseurl: ""
+markdown: kramdown
+permalink: pretty
+exclude:
+  - README.md
+  - phd-homepage.zip
+

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 900" role="img" aria-labelledby="title desc">
+  <title id="title">Portrait placeholder</title>
+  <desc id="desc">Replace this file with a portrait photograph.</desc>
+  <rect width="720" height="900" fill="#dce8f2"/>
+  <circle cx="360" cy="330" r="132" fill="#a8c0d6"/>
+  <path d="M137 900c8-213 96-330 223-330s215 117 223 330" fill="#7699b9"/>
+  <text x="360" y="805" text-anchor="middle" font-family="Georgia, serif" font-size="74" fill="#102a43">HS</text>
+</svg>

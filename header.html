@@ -1,0 +1,24 @@
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="{{ page.home_url | relative_url }}" aria-label="Haoyue Sun — home">
+      <span class="brand-mark" aria-hidden="true">HS</span>
+      <span class="brand-name">Haoyue Sun</span>
+    </a>
+
+    <button class="menu-button" type="button" aria-expanded="false" aria-controls="site-navigation">
+      <span>Menu</span>
+      <span class="menu-lines" aria-hidden="true"></span>
+    </button>
+
+    <nav id="site-navigation" class="site-navigation" aria-label="Primary navigation">
+      {% assign items = site.data.navigation[page.lang] %}
+      {% for item in items %}
+        <a href="{{ item.url | relative_url }}"{% if page.url == item.url %} class="active" aria-current="page"{% endif %}>{{ item.label }}</a>
+      {% endfor %}
+      <a class="language-link" href="{{ page.alternate_url | relative_url }}" lang="{{ page.alternate_lang }}" hreflang="{{ page.alternate_lang }}">
+        {{ page.alternate_label }} <span aria-hidden="true">↗</span>
+      </a>
+    </nav>
+  </div>
+</header>
+

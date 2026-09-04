@@ -1,0 +1,19 @@
+en:
+  - label: Profile
+    url: /
+  - label: CV
+    url: /cv/
+  - label: Current Research
+    url: /current-research/
+  - label: Contact
+    url: /contact/
+
+ja:
+  - label: プロフィール
+    url: /ja/
+  - label: CV
+    url: /ja/cv/
+  - label: 現在の研究
+    url: /ja/current-research/
+  - label: 連絡先
+    url: /ja/contact/
