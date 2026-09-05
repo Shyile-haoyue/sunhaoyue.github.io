@@ -174,14 +174,14 @@ img { display: block; max-width: 100%; }
 }
 .profile-name {
   font-family: Georgia, "Times New Roman", "Yu Mincho", serif;
-  font-size: clamp(2.35rem, 5vw, 4.2rem);
+  font-size: clamp(2rem, 3.2vw, 3.2rem);
   font-weight: 500;
   letter-spacing: -0.035em;
-  line-height: 1.08;
-  margin: 0 0 22px;
+  line-height: 1.15;
+  margin: 0 0 20px;
 }
 .profile-role {
-  font-size: clamp(1rem, 2vw, 1.25rem);
+  font-size: clamp(0.95rem, 1.5vw, 1.1rem);
   font-weight: 600;
   margin: 0;
 }
