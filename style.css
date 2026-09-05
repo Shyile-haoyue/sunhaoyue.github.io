@@ -428,3 +428,7 @@ img { display: block; max-width: 100%; }
   html { scroll-behavior: auto; }
   *, *::before, *::after { transition-duration: 0.01ms !important; }
 }
+
+.timeline-item.group-start {
+  margin-top: 28px;
+}
